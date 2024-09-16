@@ -1,0 +1,179 @@
+/** @format */
+
+.Day-header{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Day-body{
+    flex-direction: column;
+    display: flex;
+   align-items: center;
+   width: 80%;
+   
+   
+}
+.Day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.App{
+    margin: 0;
+}
+
+.button-input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+.habit-button{
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
+
+.progress-bar-wrapper{
+    padding: 2rem;
+    width: 10rem;
+    height: 100%;
+}
+
+
+.habit-form {
+    display: flex;
+    width: 20rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+.habit-input {
+    outline: none;
+    background: none;
+    border: none;
+    border-radius: 20px;
+    /* padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem; */
+    width: 250px;
+    color: #fff;
+    font-size: medium;
+    
+  }
+
+  .habit-input::placeholder {
+    color: white;
+    opacity: 0.8; /* Firefox */
+  }
+
+  .add-habit-btn{
+    background-color: #F671B7;
+    color: #fff;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size:xx-large;
+    font-weight: bolder;
+    
+  }
+
+  .add-habit-btn:hover {
+    background-color: #f25eab;
+    color: white;
+  }
+
+
+
+
+.Habit{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  color: #fff;
+  width: 15rem;
+  padding: 0rem 1.5rem;
+  border-radius: 3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+
+  
+  
+}
+
+.habit-bar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  /* width: 5rem; */
+  padding: 0.1rem 0.5rem;
+  border-radius: 3rem;
+  /* border: 2px solid #9A366B; */
+  margin: 1rem;
+  
+}
+.delete-btn{
+  color: #d84e95;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #d84e95;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete-btn:hover{
+  background-color: #ca4288;
+  border-color: #b6206d;
+}
+
+.edit-btn{
+  color: #d84e95;
+  cursor: pointer;
+  border: 2px solid #d84e95;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-btn:hover{
+  background-color: #b6206d;
+  border-color: #b6206d;
+}
+
+.habit-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Habit-grid{
+    
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    height: 20rem;
+
+}
