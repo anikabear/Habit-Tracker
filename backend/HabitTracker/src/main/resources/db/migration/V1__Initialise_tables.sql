@@ -1,0 +1,6 @@
+CREATE TABLE habits
+(
+    id VARCHAR(36) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    completed BOOLEAN NOT NULL
+)
